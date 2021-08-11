@@ -9,7 +9,7 @@ class DataManager {
     
     static let shared = DataManager()
     
-    var currencies: [CurrencyModel] = []
+    var currencies: [Any] = []
     
     private init() {}
 }

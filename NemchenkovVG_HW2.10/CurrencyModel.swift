@@ -6,16 +6,16 @@
 //
 
 struct CurrencyModel: Decodable {
-    var date: String?
-    var previousDate: String?
-    var timestamp: String?
-    var valute: [CurrencyInfo]
+    var Date: String?
+    var PreviousDate: String?
+    var Timestamp: String?
+    var Valute: [String: Valute]
 }
 
-struct CurrencyInfo: Decodable {
-    var charCode: String?
-    var nominal: Double?
-    var name: String?
-    var value: Double?
-    var previous: Double?
+struct Valute: Decodable {
+    var CharCode: String?
+    var Nominal: Double?
+    var Name: String?
+    var Value: Double?
+    var Previous: Double?
 }
